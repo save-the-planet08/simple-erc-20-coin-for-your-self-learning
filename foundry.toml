@@ -2,5 +2,11 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@openzeppelin-contract=lib/openzeppelin-contracts"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+sender = "0x553596A1E19c195D8918aD951F8853B01D20E206"
+
+url = "${SEPOLIA_RPC_URL}"
+private_key = "${PRIVATE_KEY}"
